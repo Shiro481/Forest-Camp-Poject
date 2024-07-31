@@ -3,6 +3,7 @@
   padding:0;
   box-sizing: border-box;
   font-family: "Ovo";
+  color:white;
   
 }
 
@@ -10,6 +11,7 @@ body{
   margin:0;
   padding:0;
   box-sizing: border-box;
+  background-color: black;
 }
 
 .header-section a, .logo h3{
@@ -29,6 +31,8 @@ body{
   display:flex;
   align-items: center;
   justify-content: space-between;
+  top:0;
+  position:fixed;
 }
 .nav-container{
   display:flex;
@@ -81,3 +85,89 @@ body{
   font-size:32px;
   margin-top: 19px;
 }
+.experience-section{
+  display:flex;
+  width:100%;
+  justify-content: center;
+  align-content: center;
+  margin-top:38px;
+  height:622px;
+}
+
+.exp-title{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.experience-section h2{
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.experience-section p{
+  width:521px;
+  font-size:24px;
+  margin-top:25px;
+}
+
+.exp-choices{
+  display:flex;
+  margin-top:42px;
+  width:1142px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Accomodations, .Attractions, .Foods{
+  height:447px;
+  width:327px;
+  text-decoration: none;
+  position:relative;
+  border: 1px solid white;
+  
+  }
+
+  .Accomodations{
+    background-image:url(/images/accomodation.png) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    box-sizing: border-box;
+  }
+  
+  .Attractions{
+    background-image:url(/images/attraction.png) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    box-sizing: border-box;
+  }
+  
+  .Foods{
+    background-image:url(/images/Dining.png) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    box-sizing: border-box;
+  }
+
+  .Accomodations  p, .Attractions  p, .Foods  p{
+    font-size: 24px;
+    font-family: "Poppins";
+    text-decoration: none;
+    color:white;
+    bottom:0%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 20px;
+  }
+
+  .Accomodations  p{
+    width:192px;
+  }
+  .Attractions  p{
+    width:132px;
+  }
+  .Foods  p{
+    width:72px;
+  }
