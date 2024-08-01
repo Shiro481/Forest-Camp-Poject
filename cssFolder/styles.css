@@ -245,3 +245,43 @@ align-items: end;
   font-size: 24px;
 }
 
+.feature2-section{
+  width:1144px;
+  height:489px;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top:322px;
+}
+
+.camp-title{
+  width:406px;
+  height:274px;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.camp-title h3{
+  width:353px;
+  font-size: 64px;
+  font-weight:400;
+}
+
+.camp-title p{
+  font-size:24px;
+  width:401px;
+}
+
+.camp-img{
+  width:668px;
+  height:489px;
+  background-image:url("../images/camp.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border:1px solid white;
+}
+
+
