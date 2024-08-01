@@ -12,6 +12,10 @@ body{
   padding:0;
   box-sizing: border-box;
   background-color: black;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .header-section a, .logo h3{
@@ -33,6 +37,7 @@ body{
   justify-content: space-between;
   top:0;
   position:fixed;
+  z-index: 1000;
 }
 .nav-container{
   display:flex;
@@ -126,6 +131,7 @@ body{
   text-decoration: none;
   position:relative;
   border: 1px solid white;
+  z-index: 1;
   
   }
 
@@ -171,3 +177,71 @@ body{
   .Foods  p{
     width:72px;
   }
+.feature1-section{
+  width:1154px;
+  height:667px;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top:206px;
+}
+
+.hammock-image{
+  width:445px;
+  height:667px;
+  background-image: url(../images/Relax1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid white;
+
+}
+.feature1-subcontainer{
+  width:655px;
+  height:667px;
+  display: flex;
+align-items: end;
+  text-align: right;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.feature1-title h3{
+  width:439px;
+  height:144px;
+  font-weight:400;
+  font-size:64px;
+
+}
+
+.hammock-image2{
+  width:645px;
+  height:246px;
+  background-image: url(../images/Relax2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid white;
+
+
+}
+
+.feature1-title{
+  display:flex;
+  align-items: center;
+  justify-content: right;
+  flex-direction: column;
+  width:463px;
+  height:295px;
+  /*margin-left: 210px;*/
+}
+
+.feature1-title p{
+  width:463px;
+  height:108px;
+  text-align: right;
+  margin-top:43px;
+  font-size: 24px;
+}
+
