@@ -251,7 +251,7 @@ align-items: end;
   display:flex;
   align-items: center;
   justify-content: space-between;
-  margin-top:322px;
+  margin-top:206px;
 }
 
 .camp-title{
@@ -282,6 +282,36 @@ align-items: end;
   background-position: center;
   background-repeat: no-repeat;
   border:1px solid white;
+}
+
+.event-section{
+  margin-top:206px;
+  width:1440px;
+  height:374px;
+  background-image: url(../images/event.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid white;
+  border-left:none;
+  border-right:none;
+}
+.event-section h3{
+  font-size:32px;
+  font-weight:400;
+  margin-left:123px;
+  margin-top:44px;
+}
+
+.event-section button{
+  font-size:32px;
+  font-weight:400;
+  width:221px;
+  height:64px;
+  background: none;
+  border: 1px solid white;
+  margin-left:123px;
+  margin-top:22px;
 }
 
 
